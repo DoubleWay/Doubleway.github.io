@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: 13558965844@163.com
 description: "Every failure is leading towards success."
 keyword: "DW, DW Blog, DoubleWay的博客, zhangwweiwei, 张为伟, Android"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+url: "http://DoubleWay.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/DoubleWay/DoubleWay.github.io.git" # you code repository
 
