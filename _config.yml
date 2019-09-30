@@ -12,7 +12,7 @@ github_repo: "https://github.com/DoubleWay/DoubleWay.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/avatar-m.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/icon.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
