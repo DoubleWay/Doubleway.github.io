@@ -1,7 +1,7 @@
 ---
 layout:     post                    
 title:      ota包上传服务器失败后，进入后台手动上传图解                
-subtitle:   Hello 
+subtitle:   Hello,a
 date:       2019-09-30            
 author:     DoubleWay                      
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
