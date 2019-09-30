@@ -8,8 +8,9 @@ header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       
 tags:                               
     - TINNO
-    - ota
---
+    - OTA
+    
+---
 
 ①进入后台后，在项目管理中，搜索当前项目名，项目名获取方式如下：
 ![image.png](https://upload-images.jianshu.io/upload_images/16808961-4c86e6eec4ef584d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
