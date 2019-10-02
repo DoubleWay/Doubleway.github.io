@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      定时器 你真的会使用吗？
-subtitle:   iOS定时器详解
+title:      利用Handler在不是内部类的BroadcastReceiver中更新UI
+subtitle:   
 date:       2019-07-25
 author:     DoubleWay
 header-img: img/post-bg-BJJ.jpg
