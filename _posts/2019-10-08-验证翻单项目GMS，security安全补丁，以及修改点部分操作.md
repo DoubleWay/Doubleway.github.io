@@ -50,4 +50,4 @@ android@Precision-T1700-c0508:~/work/K210/vendor/tinno/k210/trunk$ cat gms.mk |g
 
 android@Precision-T1700-c0508:~/work/K210/vendor/tinno/k210/trunk$ adb shell getprop |grep security
 
-![GitHub](https://github.com/DoubleWay/DoubleWay.github.io/blob/master/img/post-bg-2015.jpg)
+![image](https://github.com/DoubleWay/DoubleWay.github.io/blob/master/img/post-bg-2015.jpg)
