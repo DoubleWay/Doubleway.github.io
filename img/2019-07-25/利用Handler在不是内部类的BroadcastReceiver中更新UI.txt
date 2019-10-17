@@ -1,0 +1,1 @@
+利用Handler在不是内部类的BroadcastReceiver中更新UI
