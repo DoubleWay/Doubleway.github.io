@@ -20,7 +20,7 @@ sidebar-avatar: /img/icon.jpg      # use absolute URL, seeing it's used in both 
 RSS: false
 # weibo_username:     qiubaiying
 zhihu_username:     username
-github_username:    username
+github_username:    DoubleWay
 facebook_username:  username
 jianshu_username:   a970b0e2325b
 #twitter_username:   qiubaiying
@@ -99,7 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "简书·BY",
+        title: "简书·DoubleWay",
         href: "http://www.jianshu.com/u/a970b0e2325b"
     },{
         title: "Android",
