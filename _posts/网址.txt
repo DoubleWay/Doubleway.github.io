@@ -1,0 +1,29 @@
+项目管理：http://172.16.20.162     http://172.16.20.162/project/make_ota_history/
+ftp  ：ftp://172.16.5.198
+TSDS：192.168.32.23
+SVN ：https://version2.tinno.com
+
+http://172.16.20.162/project/project_view/
+
+https://version2.tinno.com/svn/
+
+ftp://172.16.5.198/
+
+https://developer.android.google.cn/guide
+
+https://source.android.google.cn/
+
+http://192.168.32.23:8888/project/project_svn_search
+
+https://www.cnblogs.com/androidsj/p/3985349.html
+
+https://blog.csdn.net/itachi85/
+
+http://172.16.5.189/#/dashboard/self
+
+
+临时区
+172.16.5.228
+zhuli.zhang
+TINNO
+tinno@2019
