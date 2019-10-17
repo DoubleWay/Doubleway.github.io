@@ -9,6 +9,7 @@ catalog: 	 true
 tags:
     - java
     - Handler
+    
 ---
 &emsp;&emsp;我们知道Receiver也是在主线程中运行的，如果将Receiver写成activity的内部类，可以直接在 onReceive（）方法中获得主线程的UI控件，对UI进行刷新，但是如果我们将Receiver写成单独的一个类，那这样就可能比较麻烦了，因为我们获取activity中的UI控件就变得困难。
 &emsp;&emsp;就算我们利用LayoutInflater.from(C).inflate(R.layout.mainframe,null)方法来获得布局和控件，但是这不是取得你的Context中的控件，而是将mainframe.xml中的控件创建出来一份，与原本的Context无关。所以这时候我就想到了利用handler来传递信息，在主线程中更新UI。
@@ -77,6 +78,6 @@ tags:
   }
 ``````
 最后的效果如图所示：
-![2019-07-25 09:34:19 的屏幕截图.png](https://upload-images.jianshu.io/upload_images/16808961-a2cc7328c4b901c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![2019-07-25 09:34:50 的屏幕截图.png](https://upload-images.jianshu.io/upload_images/16808961-2cdd35b3490415bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-25/2019-07-25-1.1.png)
+![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-25/2019-07-25-1.2.png)
 
