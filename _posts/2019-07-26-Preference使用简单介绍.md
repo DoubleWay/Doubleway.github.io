@@ -3,7 +3,7 @@ layout:     post
 title:      Preference使用简单介绍
 subtitle:   
 date:       2019-07-26
-author:     BY
+author:     DoubleWay
 header-img: img/post-bg-mma-6.jpg
 catalog: 	 true
 tags:
