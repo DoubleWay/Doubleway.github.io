@@ -9,6 +9,7 @@ catalog: 	 true
 tags:
     - Android
     - Preference
+    
 ---
 ## Preference 使用简单介绍
 
@@ -132,4 +133,4 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
 getPreferenceScreen().removePreference(findPreference("thirdC"));//这是 删除整个 一级节点
    ((PreferenceGroup)findPreference("thirdC")).removeAll();//这是 删除整个 一级节点下 所有的二级节点，但不会 删除 一级 节点的 节点名，
    // getPreferenceScreen().removePreference(findPreference("ttts"));//这样 无效，这样 只能删除一级节点
- ```
+```
