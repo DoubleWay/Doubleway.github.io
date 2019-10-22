@@ -74,7 +74,7 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
 ```
  ![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-26/2019-07-26-1.3.png)
  2.  Activity 中调用Fragment  
- a .填充布局  
+ a .填充布局 
  ```
  <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -86,9 +86,9 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
- ```
+```
  b .Activity 中调用Fragment  
- ```
+```
  public class SettingPreferenceActivity extends Activity {
  //Activity 中调用Fragment
     @Override
