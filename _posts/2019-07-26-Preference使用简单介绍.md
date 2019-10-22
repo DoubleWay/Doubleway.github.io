@@ -47,7 +47,8 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
  1. 继承PreferenceActivity在onCreate方法中直接调用
  3. addPreferencesFromResource(R.xml.seeting);添加布局    
  ![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-26/2019-07-26-1.2.png)
-```
+ 
+````
  SettingActivity extends PreferenceActivity
 .................
 @Override
@@ -55,12 +56,12 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.seeting);
 //addPreferencesFromResource    即给这个PreferenceActivity指定了一个xml
-```
+````
 - 使用Fragment 片段定义Preference
 1. 首先自定Fragment片段  
  a .自定义 SettingsFragment  
  b .preference 实现  布局文件  
-```
+````
  public class SettingsFragment extends PreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,11 +72,11 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
      //自定义 SettingsFragment
     }
 }
-```
+````
  ![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-26/2019-07-26-1.3.png)
  2.  Activity 中调用Fragment  
  a .填充布局 
-```
+````
  <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -86,9 +87,9 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
-```
+````
  b .Activity 中调用Fragment  
-```
+````
  public class SettingPreferenceActivity extends Activity {
  //Activity 中调用Fragment
     @Override
@@ -100,7 +101,7 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
                 .replace(R.id.fm_pref, new SettingsFragment()).commit();
     }
 }
-```
+````
 
 ### 常用方法
 - getFragmentManager、getSupportFragmentManager其实获取的都是Activity里面的Fragment的管理器，getFragmentManager是Activtiy的方法，getSupportFragmentManager是FragmentActivity的方法，FragmentActivity是V4包的类，3.0系统之前先有的。
@@ -128,9 +129,9 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
 2. 用removePreference(Preference preference) 方法 删除；//推荐方法
 如图：  
 ![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-26/2019-07-26-1.6.png)
-```
+````
 ((PreferenceGroup)findPreference("thirdC")).removePreference(findPreference("ttts"));//这是删除 二级节点
 getPreferenceScreen().removePreference(findPreference("thirdC"));//这是 删除整个 一级节点
    ((PreferenceGroup)findPreference("thirdC")).removeAll();//这是 删除整个 一级节点下 所有的二级节点，但不会 删除 一级 节点的 节点名，
    // getPreferenceScreen().removePreference(findPreference("ttts"));//这样 无效，这样 只能删除一级节点
-```
+````
