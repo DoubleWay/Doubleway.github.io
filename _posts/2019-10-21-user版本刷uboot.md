@@ -3,7 +3,7 @@ layout:     post
 title:      user版本刷uboot
 subtitle:   
 date:       2019-10-21
-author:     BY
+author:     DoubleWay
 header-img: img/post-bg-ios9-web.jpg
 catalog: 	 true
 tags:
