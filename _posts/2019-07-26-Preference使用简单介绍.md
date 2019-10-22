@@ -47,7 +47,7 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
  1. 继承PreferenceActivity在onCreate方法中直接调用
  3. addPreferencesFromResource(R.xml.seeting);添加布局    
  ![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-26/2019-07-26-1.2.png)
- ```
+```
  SettingActivity extends PreferenceActivity
 .................
 @Override
@@ -60,7 +60,7 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
 1. 首先自定Fragment片段  
  a .自定义 SettingsFragment  
  b .preference 实现  布局文件  
-  ```
+```
  public class SettingsFragment extends PreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -75,7 +75,7 @@ Preference 常用于APP设置模块，比如Android 系统中的Settings 模块
  ![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-26/2019-07-26-1.3.png)
  2.  Activity 中调用Fragment  
  a .填充布局 
- ```
+```
  <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
