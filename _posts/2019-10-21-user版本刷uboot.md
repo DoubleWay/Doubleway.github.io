@@ -22,6 +22,6 @@ tags:
 
 
 请打赏：  
-![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/%E6%89%93%E8%B5%8F%E7%A0%81/wechat_money.png)  
+![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/%E6%89%93%E8%B5%8F%E7%A0%81/wechat_money.png) 
 ![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/%E6%89%93%E8%B5%8F%E7%A0%81/aliplay_money.png)
 
