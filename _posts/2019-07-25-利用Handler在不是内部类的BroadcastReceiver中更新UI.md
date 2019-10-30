@@ -78,6 +78,10 @@ tags:
   }
 ``````
 最后的效果如图所示：  
-![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-25/2019-07-25-1.1.png)
-![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-07-25/2019-07-25-1.2.png)
+<div align="center">
+	<img src="/img/2019-07-25/2019-07-25-1.1.png">  
+</div>
+<div align="center">
+	<img src="/img/2019-07-25/2019-07-25-1.2.png">  
+</div>
 
