@@ -18,12 +18,12 @@ tags:
 	<img src="/img/2019-10-21/2019-10-21-1.1.png">  
 </div>  
 3. 勾选UBOOT_LOADER，并双击路径，点击“...”这个按钮进入文件，选择uboot文件
-![Github](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-10-21/2019-10-21-1.2.png)
+<div align="center">
+	<img src="/img/2019-10-21/2019-10-21-1.2.png">  
+</div>  
 4. 选择对应uboot后，看到UBOOT_LOADER的路径被变更 --> 点击OK按钮 -- > 刷机
-![Github](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/2019-10-21/2019-10-21-1.3.png)  
+<div align="center">
+	<img src="/img/2019-10-21/2019-10-21-1.3.png">  
+</div>    
 
-
-请打赏：  
-![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/%E6%89%93%E8%B5%8F%E7%A0%81/wechat_money.png) 
-![GitHub](https://raw.githubusercontent.com/DoubleWay/DoubleWay.github.io/master/img/%E6%89%93%E8%B5%8F%E7%A0%81/aliplay_money.png)
 
