@@ -12,7 +12,7 @@ tags:
 ---
 - 手机在编译版本以后要检查ro.keybox.id.value的属性值，没有这个属性值手机会写入Android Key失败　　
 <div align="center">
-	<img src="/img/2019-11-12/2019-11-12-1.1.png">  
+	<img src="/img/2019-11-12/2019-11-12-1.1.PNG">  
 </div>  
 - 如果没有这个属性值就要添加这个属性值，可以在订单仓库下面的PlatformConfigs.mk文件添加
 <div align="center">
