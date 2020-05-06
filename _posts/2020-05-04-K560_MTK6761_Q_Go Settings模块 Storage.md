@@ -74,7 +74,8 @@ if (mInternalCategory.getPreferenceCount() == 2
 
 从setDestination(StorageDashboardFragment.class.getName())可以了解到，它加载了StorageDashboardFragment.class这个类。
 
-`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo/StorageDashboardFragment.java`
+`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo
+/StorageDashboardFragment.java`
 
 在StorageDashboardFragment.java中加载的xml文件是storage_dashboard_fragment.xml
 
@@ -117,7 +118,8 @@ protected List<AbstractPreferenceController> createPreferenceControllers(Context
 
 #### 上面部分磁盘展示的controller就是**StorageSummaryDonutPreferenceController**，
 
-`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo/storage/StorageSummaryDonutPreferenceController.java`
+`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo/storage
+/StorageSummaryDonutPreferenceController.java`
 
 ```java
 public void updateState(Preference preference) {
@@ -134,7 +136,8 @@ public void updateState(Preference preference) {
 
 updateState函数主要是更改storage磁盘上面的summary字符串显示，mUsedBytes是已用的内存，mTotalBytes是全部的内存。而在updateState方法中更改的summary，StorageSummaryDonutPreference就是布局的主要显示。
 
-`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo/storage/StorageSummaryDonutPreference.java`
+`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo/storage
+/StorageSummaryDonutPreference.java`
 
 ```java
 setLayoutResource(R.layout.storage_summary_donut);
@@ -181,7 +184,8 @@ controllers.add(mPreferenceController);
 
 item部分的controller可以看到是StorageItemPreferenceController。
 
-`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo/storage/StorageItemPreferenceController.java`
+`vendor/mediatek/proprietary/packages/apps/MtkSettings/src/com/android/settings/deviceinfo/storage
+/StorageItemPreferenceController.java`
 
 ```java
 private StorageItemPreference mPhotoPreference;
