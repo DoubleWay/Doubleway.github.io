@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2020-05-04-K560_MTK6761_Q_Go Settings模块 Storage
+title:      K560_MTK6761_Q_Go Settings模块 Storage
 subtitle:   
 date:       2020-05-04
 author:     DoubleWay
