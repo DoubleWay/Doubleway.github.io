@@ -14,7 +14,7 @@ tags:
 
 ActivityRecord是System_setver进程中的对象，通过图来看：
 
-![2020-05-17-1.1](../img/2020-05-17/2020-05-17-1.1.png)
+![2020-05-17-1.1](/img/2020-05-17/2020-05-17-1.1.png)
 
 ActivityRecord是AMS调度Activity的基本单位，它记录着在Androidmanifest.xml定义的Activity的静态信息，同时，也要记录Activity被调度时的状态变化
 
