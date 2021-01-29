@@ -21,11 +21,7 @@ tags:
 
 应用要能够通过应用商店进行升级，这个就必须要使用应用自身的签名 ，因为如果前后两个程序版本所采用的签名不同，即使包名相同，也不会被视为同一个程序的不同版本，不能覆盖安装，**LOCAL_CERTIFICATE := PRESIGNED**，表示使用应用本身的签名，表示之前应用已经签名了。Google apk就是这样
 
-按理来说这样已经就满足客户提出的需求了，但是客户又提了新的需求，给了我们一个链接，
-
-[https://source.android.google.cn//devices/tech/config/perms-allowlist]: https://source.android.google.cn//devices/tech/config/perms-allowlist
-
-，希望我们能按照这个参考文档里的方式预置应用，进入链接可以看到，这就是官方关于特许权限应用许可的指导文档。需要预置到**system/priv-app**下面。
+按理来说这样已经就满足客户提出的需求了，但是客户又提了新的需求，给了我们一个链接，https://source.android.google.cn//devices/tech/config/perms-allowlist#adding-allowlists，希望我们能按照这个参考文档里的方式预置应用，进入链接可以看到，这就是官方关于特许权限应用许可的指导文档。需要预置到**system/priv-app**下面。
 
 这就引出了我一直以来的一个疑惑，**system/app**和**system/priv-app**到底有什么区别
 
@@ -188,7 +184,5 @@ private static boolean isSystemApp(PackageParser.Package pkg) {
   ..........
 ```
 
-详细的配置可以参考谷歌的官方文档：
-
-[https://source.android.google.cn//devices/tech/config/perms-allowlist]: https://source.android.google.cn//devices/tech/config/perms-allowlist
+详细的配置可以参考谷歌的官方文档：https://source.android.google.cn//devices/tech/config/perms-allowlist#adding-allowlists
 
